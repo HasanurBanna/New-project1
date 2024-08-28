@@ -410,5 +410,15 @@ button{
             width: 100%;
         }
     }
+
+    /* Scrollber */
+::-webkit-scrollbar {
+    background: linear-gradient( 45deg, #FA8BFF, #2BD2FF, #2BFF88);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(147deg, #FFE53B, #FF2525);
+    border-radius: 100px;
+}
     
 }
